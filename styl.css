@@ -1,0 +1,180 @@
+*{
+    margin: 0;
+    font-family: monospace;
+}
+body{
+    background-color: #222222;
+}
+header{
+    height: 4em;
+    background-color: rgb(12, 147, 224);
+    position: sticky;
+    top: 0px;
+}
+#glowniak{
+    color: white;
+    margin-top: 5em;
+    width: 100vw;
+    min-height: 40em;
+    background-color: #111111;
+}
+
+.inputy>.d1{
+    margin-left: 10em;
+}
+.inputy>.d1>p{
+    font-size: 20px;
+}
+.sd{
+    margin: 5px;
+    font-size: 15px;
+    border-radius: 5px;
+    height: 1.5em;
+    border-style: groove;
+}
+#wynik{
+    clear: both;
+    width: 100vw;
+    background-color: blueviolet;
+    color: white;
+    font-weight: 900;
+    font-size: 20px;
+    text-align: center;
+}
+header>p{
+    margin: 5px;
+    color: white;
+    font-size: 20px;
+    float: left;
+}
+
+header {
+    z-index: 5;
+    text-decoration: none;
+    padding-top: 0.5em;
+    position: sticky;
+    top: 0;
+    height: 5vh;
+    background-color: #1d92ff;
+    width: 100vw;
+    font-size: 20px;
+}
+
+.inputy{
+    /* background-color: orangered; */
+    float: left;
+    width: 30%;
+    min-height: 40em;
+    display: flex;
+    align-items: center;
+}
+
+.smsi{
+    margin: 5px;
+    font-size: 15px;
+    width: 5em;
+    border-radius: 5px;
+    height: 2em;
+    border-style: groove;
+}
+
+/* footer */
+
+footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    left: 0;
+    right: 0;
+    background: #111;
+    height: auto;
+    width: 100vW;
+    font-family: monospace;
+    padding-top: 20px;
+    color: white;
+}
+
+#zawfoot {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+#zawfoot h3 {
+    font-size: 1.8rem;
+    font-weight: 400;
+    text-transform: capitalize;
+    line-height: 3rem;
+}
+
+#zawfoot p {
+    max-width: 500px;
+    margin: 10px auto;
+    line-height: 28px;
+    font-size: 14px;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.dol {
+    background: #000;
+    width: 100vw;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.dol p {
+    font-size: 14px;
+    word-spacing: 2px;
+    text-transform: capitalize;
+}
+
+#zawfoot span {
+    text-transform: uppercase;
+    opacity: .4;
+    font-weight: 200;
+}
+/* mapa */
+#map { 
+    width: 40%;
+    min-height: 53.2em;
+    float:left;
+}
+.klik{
+    width: 6em;
+    color: white;
+    font-size: 20px;
+    height: 2em;
+    border-radius: 5px;
+    margin-top: 5px;
+    background-color: #8a2be2;
+    transition: 0.5s;
+}
+.klik:hover{
+    background-color: #bf7aff;
+    color: #222222;
+}
+@media only screen and (max-width:600px) {
+    .inputy{
+        clear: both;
+        width: 100%;
+    }
+    #map{
+        width: 100%;
+    }
+    footer{
+        position: relative;
+    }
+    .inputy>.d1{
+        margin-left: 5em;
+    }
+    .smsi{
+        width: 4em;
+    }
+}
